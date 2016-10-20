@@ -13,6 +13,7 @@
 		B14448151DB8A1F0005CE147 /* Soundboard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B14448131DB8A1F0005CE147 /* Soundboard.xcdatamodeld */; };
 		B14448171DB8A1F0005CE147 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B14448161DB8A1F0005CE147 /* Assets.xcassets */; };
 		B144481A1DB8A1F0005CE147 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B14448181DB8A1F0005CE147 /* LaunchScreen.storyboard */; };
+		B14448221DB8A4AC005CE147 /* SoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14448211DB8A4AC005CE147 /* SoundViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B14448161DB8A1F0005CE147 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B14448191DB8A1F0005CE147 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B144481B1DB8A1F0005CE147 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B14448211DB8A4AC005CE147 /* SoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				B144480C1DB8A1EF005CE147 /* AppDelegate.swift */,
 				B144480E1DB8A1EF005CE147 /* ViewController.swift */,
+				B14448211DB8A4AC005CE147 /* SoundViewController.swift */,
 				B14448101DB8A1EF005CE147 /* Main.storyboard */,
 				B14448161DB8A1F0005CE147 /* Assets.xcassets */,
 				B14448181DB8A1F0005CE147 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B14448221DB8A4AC005CE147 /* SoundViewController.swift in Sources */,
 				B144480F1DB8A1EF005CE147 /* ViewController.swift in Sources */,
 				B14448151DB8A1F0005CE147 /* Soundboard.xcdatamodeld in Sources */,
 				B144480D1DB8A1EF005CE147 /* AppDelegate.swift in Sources */,
